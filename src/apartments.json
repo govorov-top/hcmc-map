@@ -280,5 +280,30 @@
       "photo": "agents/le-phuong-nhi.jpg",
       "facebook": "https://www.facebook.com/nhi.sokeo"
     }
+  },
+  {
+    "id": "apt-012",
+    "title": "Bright 1BR with balcony · 35 sqm (Milan Apartment)",
+    "price": "12M ₫/mo",
+    "lat": 10.789552,
+    "lng": 106.686642,
+    "address": "Đinh Công Tráng, Tân Định Ward, District 1",
+    "notes": "1 bedroom, 1 bathroom · 35 sqm\nBalcony and washer at Milan Apartment\n🗓️ Available now",
+    "link": "https://jhouse.vn/property/bright-1br-apartment-balcony-washer-milan-apartment-d1/",
+    "photos": [
+      "photos/apt-012/1.jpg",
+      "photos/apt-012/2.jpg",
+      "photos/apt-012/3.jpg",
+      "photos/apt-012/4.jpg",
+      "photos/apt-012/5.jpg",
+      "photos/apt-012/6.jpg",
+      "photos/apt-012/7.jpg",
+      "photos/apt-012/8.jpg"
+    ],
+    "agent": {
+      "name": "Lê Phương Nhi",
+      "photo": "agents/le-phuong-nhi.jpg",
+      "facebook": "https://www.facebook.com/nhi.sokeo"
+    }
   }
 ]
