@@ -47,5 +47,29 @@
       "photo": "agents/jayden-le.jpg",
       "facebook": "https://www.facebook.com/profile.php?id=61589576163427"
     }
+  },
+  {
+    "id": "apt-003",
+    "title": "1BR apartment · 40 sqm",
+    "price": "14M ₫/mo",
+    "lat": 10.7645,
+    "lng": 106.6871,
+    "address": "Nguyễn Trãi, Nguyễn Cư Trinh Ward, District 1",
+    "notes": "1 bedroom, 1 bathroom · 40 sqm\nFully furnished: bed, TV, washer, dryer, AC, fridge\n🗓️ Available: 01/09/2026",
+    "link": "",
+    "photos": [
+      "photos/apt-003/1.jpg",
+      "photos/apt-003/2.jpg",
+      "photos/apt-003/3.jpg",
+      "photos/apt-003/4.jpg",
+      "photos/apt-003/5.jpg",
+      "photos/apt-003/6.jpg",
+      "photos/apt-003/7.jpg"
+    ],
+    "agent": {
+      "name": "Jayden Le",
+      "photo": "agents/jayden-le.jpg",
+      "facebook": "https://www.facebook.com/profile.php?id=61589576163427"
+    }
   }
 ]
