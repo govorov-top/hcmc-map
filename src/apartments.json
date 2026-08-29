@@ -195,5 +195,30 @@
       "photo": "agents/hoang-le-thu.jpg",
       "facebook": "https://www.facebook.com/hoang.thi.le.thu.2024"
     }
+  },
+  {
+    "id": "apt-009",
+    "title": "Studio with balcony · 3rd floor",
+    "price": "15M ₫/mo",
+    "lat": 10.788,
+    "lng": 106.6972,
+    "address": "90 Nguyễn Văn Thủ, Tân Định Ward, District 1",
+    "notes": "Fully furnished studio with balcony, 3rd floor\n🗓️ Available from 25/08/2026\n\nFurnished: smart TV, AC, fridge, sofa, shoe cabinet, wardrobe, kitchenware\nHousekeeping included (2 sessions/week)\nPrice excludes VAT · electricity 4,000 ₫/kWh · water 200k ₫/person · parking 200k ₫/vehicle\n\n⚠️ Pin is street-level accurate — no map link was provided for the exact building.",
+    "link": "",
+    "photos": [
+      "photos/apt-009/1.jpg",
+      "photos/apt-009/2.jpg",
+      "photos/apt-009/3.jpg",
+      "photos/apt-009/4.jpg",
+      "photos/apt-009/5.jpg",
+      "photos/apt-009/6.jpg",
+      "photos/apt-009/7.jpg",
+      "photos/apt-009/8.jpg"
+    ],
+    "agent": {
+      "name": "Hoàng Lệ Thu",
+      "photo": "agents/hoang-le-thu.jpg",
+      "facebook": "https://www.facebook.com/hoang.thi.le.thu.2024"
+    }
   }
 ]
