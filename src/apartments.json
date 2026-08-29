@@ -334,5 +334,34 @@
       "photo": "agents/le-phuong-nhi.jpg",
       "facebook": "https://www.facebook.com/nhi.sokeo"
     }
+  },
+  {
+    "id": "apt-014",
+    "title": "1BR apartment",
+    "price": "12M ₫/mo",
+    "lat": 10.7913145,
+    "lng": 106.6998396,
+    "address": "109/14 Nguyễn Bỉnh Khiêm, Tân Định Ward, District 1",
+    "notes": "1 bedroom, 1 bathroom\n🗓️ Available: 01/09/2026",
+    "link": "",
+    "photos": [
+      "photos/apt-014/1.jpg",
+      "photos/apt-014/2.jpg",
+      "photos/apt-014/3.jpg",
+      "photos/apt-014/4.jpg",
+      "photos/apt-014/5.jpg",
+      "photos/apt-014/6.jpg",
+      "photos/apt-014/7.jpg",
+      "photos/apt-014/8.jpg",
+      "photos/apt-014/9.jpg",
+      "photos/apt-014/10.jpg",
+      "photos/apt-014/11.jpg",
+      "photos/apt-014/12.jpg"
+    ],
+    "agent": {
+      "name": "Lê Phương Nhi",
+      "photo": "agents/le-phuong-nhi.jpg",
+      "facebook": "https://www.facebook.com/nhi.sokeo"
+    }
   }
 ]
