@@ -473,5 +473,32 @@
       "photo": "agents/kimee-dinh.jpg",
       "facebook": "https://www.facebook.com/profile.php?id=100088832354512"
     }
+  },
+  {
+    "id": "apt-019",
+    "title": "Studio · 35 sqm · unit 202 (AMR)",
+    "price": "13M ₫/mo",
+    "lat": 10.79318,
+    "lng": 106.70027,
+    "address": "Hoàng Sa, Đa Kao Ward, District 1",
+    "notes": "Studio, 1 bathroom · 35 sqm · fully furnished\n🔑 Unit 202 · available from 02/09/2026\n\nSame building as unit 402 — see that card for the full list of included services.\n\n⚠️ Pin is street-level accurate — no map link was provided for the exact building.",
+    "link": "https://www.facebook.com/share/p/19NqzHJ4Xv/",
+    "photos": [
+      "photos/apt-019/1.jpg",
+      "photos/apt-019/2.jpg",
+      "photos/apt-019/3.jpg",
+      "photos/apt-019/4.jpg",
+      "photos/apt-019/5.jpg",
+      "photos/apt-019/6.jpg",
+      "photos/apt-019/7.jpg",
+      "photos/apt-019/8.jpg",
+      "photos/apt-019/9.jpg",
+      "photos/apt-019/10.jpg"
+    ],
+    "agent": {
+      "name": "Kimee Dinh",
+      "photo": "agents/kimee-dinh.jpg",
+      "facebook": "https://www.facebook.com/profile.php?id=100088832354512"
+    }
   }
 ]
