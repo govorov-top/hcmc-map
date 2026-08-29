@@ -21,7 +21,25 @@
       "name": "Jayden Le",
       "photo": "agents/jayden-le.jpg",
       "facebook": "https://www.facebook.com/profile.php?id=61589576163427"
-    }
+    },
+    "price_vnd": 11500000,
+    "area": 28,
+    "rooms": "studio",
+    "baths": 1,
+    "available": "now",
+    "district": "District 1",
+    "ward": "Cô Giang",
+    "features": [
+      "washer",
+      "dryer",
+      "tv",
+      "aircon",
+      "fridge",
+      "furnished"
+    ],
+    "has_video": false,
+    "has_listing": false,
+    "photo_count": 7
   },
   {
     "id": "apt-002",
@@ -46,7 +64,25 @@
       "name": "Jayden Le",
       "photo": "agents/jayden-le.jpg",
       "facebook": "https://www.facebook.com/profile.php?id=61589576163427"
-    }
+    },
+    "price_vnd": 13000000,
+    "area": null,
+    "rooms": null,
+    "baths": null,
+    "available": null,
+    "district": "District 1",
+    "ward": "Đa Kao",
+    "features": [
+      "washer",
+      "dryer",
+      "tv",
+      "aircon",
+      "fridge",
+      "furnished"
+    ],
+    "has_video": false,
+    "has_listing": false,
+    "photo_count": 8
   },
   {
     "id": "apt-003",
@@ -70,7 +106,25 @@
       "name": "Jayden Le",
       "photo": "agents/jayden-le.jpg",
       "facebook": "https://www.facebook.com/profile.php?id=61589576163427"
-    }
+    },
+    "price_vnd": 14000000,
+    "area": 40,
+    "rooms": "1br",
+    "baths": 1,
+    "available": "01/09/2026",
+    "district": "District 1",
+    "ward": "Nguyễn Cư Trinh",
+    "features": [
+      "washer",
+      "dryer",
+      "tv",
+      "aircon",
+      "fridge",
+      "furnished"
+    ],
+    "has_video": false,
+    "has_listing": false,
+    "photo_count": 7
   },
   {
     "id": "apt-004",
@@ -94,7 +148,29 @@
       "name": "Jayden Le",
       "photo": "agents/jayden-le.jpg",
       "facebook": "https://www.facebook.com/profile.php?id=61589576163427"
-    }
+    },
+    "price_vnd": 12500000,
+    "area": 40,
+    "rooms": "1br",
+    "baths": 1,
+    "available": "01/09/2026",
+    "district": "Bình Thạnh",
+    "ward": "",
+    "features": [
+      "washer",
+      "dryer",
+      "parking",
+      "cleaning",
+      "laundry",
+      "wifi",
+      "tv",
+      "aircon",
+      "fridge",
+      "furnished"
+    ],
+    "has_video": false,
+    "has_listing": false,
+    "photo_count": 7
   },
   {
     "id": "apt-005",
@@ -118,7 +194,28 @@
       "name": "Jayden Le",
       "photo": "agents/jayden-le.jpg",
       "facebook": "https://www.facebook.com/profile.php?id=61589576163427"
-    }
+    },
+    "price_vnd": 10000000,
+    "area": 30,
+    "rooms": "studio",
+    "baths": 1,
+    "available": "now",
+    "district": "Bình Thạnh",
+    "ward": "",
+    "features": [
+      "washer",
+      "dryer",
+      "parking",
+      "cleaning",
+      "wifi",
+      "tv",
+      "aircon",
+      "fridge",
+      "furnished"
+    ],
+    "has_video": false,
+    "has_listing": false,
+    "photo_count": 7
   },
   {
     "id": "apt-006",
@@ -144,7 +241,25 @@
       "name": "Jayden Le",
       "photo": "agents/jayden-le.jpg",
       "facebook": "https://www.facebook.com/profile.php?id=61589576163427"
-    }
+    },
+    "price_vnd": 9000000,
+    "area": 35,
+    "rooms": "studio",
+    "baths": 1,
+    "available": "now",
+    "district": "District 3",
+    "ward": "",
+    "features": [
+      "washer",
+      "dryer",
+      "tv",
+      "aircon",
+      "fridge",
+      "furnished"
+    ],
+    "has_video": false,
+    "has_listing": false,
+    "photo_count": 9
   },
   {
     "id": "apt-007",
@@ -171,7 +286,25 @@
       "name": "Jayden Le",
       "photo": "agents/jayden-le.jpg",
       "facebook": "https://www.facebook.com/profile.php?id=61589576163427"
-    }
+    },
+    "price_vnd": 9500000,
+    "area": 30,
+    "rooms": "studio",
+    "baths": null,
+    "available": "now",
+    "district": "District 3",
+    "ward": "",
+    "features": [
+      "washer",
+      "dryer",
+      "tv",
+      "aircon",
+      "fridge",
+      "furnished"
+    ],
+    "has_video": false,
+    "has_listing": false,
+    "photo_count": 10
   },
   {
     "id": "apt-008",
@@ -195,7 +328,20 @@
       "photo": "agents/hoang-le-thu.jpg",
       "facebook": "https://www.facebook.com/hoang.thi.le.thu.2024"
     },
-    "approx": true
+    "approx": true,
+    "price_vnd": 13000000,
+    "area": null,
+    "rooms": "1br",
+    "baths": null,
+    "available": "now",
+    "district": "District 1",
+    "ward": "Bến Thành",
+    "features": [
+      "balcony"
+    ],
+    "has_video": false,
+    "has_listing": false,
+    "photo_count": 6
   },
   {
     "id": "apt-009",
@@ -221,7 +367,27 @@
       "photo": "agents/hoang-le-thu.jpg",
       "facebook": "https://www.facebook.com/hoang.thi.le.thu.2024"
     },
-    "approx": true
+    "approx": true,
+    "price_vnd": 15000000,
+    "area": null,
+    "rooms": "studio",
+    "baths": null,
+    "available": "25/08/2026",
+    "district": "District 1",
+    "ward": "Tân Định",
+    "features": [
+      "balcony",
+      "kitchen",
+      "parking",
+      "cleaning",
+      "tv",
+      "aircon",
+      "fridge",
+      "furnished"
+    ],
+    "has_video": false,
+    "has_listing": false,
+    "photo_count": 8
   },
   {
     "id": "apt-010",
@@ -256,7 +422,25 @@
       "photo": "agents/thu-nguyen.jpg",
       "facebook": "https://www.facebook.com/ThuNguyen41"
     },
-    "approx": true
+    "approx": true,
+    "price_vnd": 14000000,
+    "area": null,
+    "rooms": "studio",
+    "baths": null,
+    "available": null,
+    "district": "District 1",
+    "ward": null,
+    "features": [
+      "balcony",
+      "terrace",
+      "washer",
+      "dryer",
+      "kitchen",
+      "furnished"
+    ],
+    "has_video": false,
+    "has_listing": false,
+    "photo_count": 17
   },
   {
     "id": "apt-011",
@@ -282,7 +466,20 @@
       "name": "Lê Phương Nhi",
       "photo": "agents/le-phuong-nhi.jpg",
       "facebook": "https://www.facebook.com/nhi.sokeo"
-    }
+    },
+    "price_vnd": 12500000,
+    "area": 40,
+    "rooms": "1br",
+    "baths": 1,
+    "available": "30/08/2026",
+    "district": "District 3",
+    "ward": "",
+    "features": [
+      "washer"
+    ],
+    "has_video": false,
+    "has_listing": true,
+    "photo_count": 9
   },
   {
     "id": "apt-012",
@@ -307,7 +504,21 @@
       "name": "Lê Phương Nhi",
       "photo": "agents/le-phuong-nhi.jpg",
       "facebook": "https://www.facebook.com/nhi.sokeo"
-    }
+    },
+    "price_vnd": 12000000,
+    "area": 35,
+    "rooms": "1br",
+    "baths": 1,
+    "available": "now",
+    "district": "District 1",
+    "ward": "Tân Định",
+    "features": [
+      "balcony",
+      "washer"
+    ],
+    "has_video": false,
+    "has_listing": true,
+    "photo_count": 8
   },
   {
     "id": "apt-013",
@@ -336,7 +547,21 @@
       "name": "Lê Phương Nhi",
       "photo": "agents/le-phuong-nhi.jpg",
       "facebook": "https://www.facebook.com/nhi.sokeo"
-    }
+    },
+    "price_vnd": 13000000,
+    "area": 40,
+    "rooms": "studio",
+    "baths": 1,
+    "available": "now",
+    "district": "District 1",
+    "ward": "Bến Nghé",
+    "features": [
+      "balcony",
+      "washer"
+    ],
+    "has_video": false,
+    "has_listing": true,
+    "photo_count": 12
   },
   {
     "id": "apt-014",
@@ -365,7 +590,18 @@
       "name": "Lê Phương Nhi",
       "photo": "agents/le-phuong-nhi.jpg",
       "facebook": "https://www.facebook.com/nhi.sokeo"
-    }
+    },
+    "price_vnd": 12000000,
+    "area": null,
+    "rooms": "1br",
+    "baths": 1,
+    "available": "01/09/2026",
+    "district": "District 1",
+    "ward": "Tân Định",
+    "features": [],
+    "has_video": false,
+    "has_listing": false,
+    "photo_count": 12
   },
   {
     "id": "apt-015",
@@ -394,7 +630,18 @@
       "name": "Lê Phương Nhi",
       "photo": "agents/le-phuong-nhi.jpg",
       "facebook": "https://www.facebook.com/nhi.sokeo"
-    }
+    },
+    "price_vnd": 12500000,
+    "area": null,
+    "rooms": null,
+    "baths": null,
+    "available": null,
+    "district": "District 1",
+    "ward": null,
+    "features": [],
+    "has_video": false,
+    "has_listing": false,
+    "photo_count": 12
   },
   {
     "id": "apt-016",
@@ -425,7 +672,18 @@
       "name": "Huynh Anh",
       "photo": "agents/huynh-anh.jpg",
       "facebook": "https://www.facebook.com/huynh.anh.273572"
-    }
+    },
+    "price_vnd": 15000000,
+    "area": null,
+    "rooms": "studio",
+    "baths": null,
+    "available": "09/09/2026",
+    "district": "District 1",
+    "ward": "Tân Định",
+    "features": [],
+    "has_video": false,
+    "has_listing": true,
+    "photo_count": 14
   },
   {
     "id": "apt-017",
@@ -453,7 +711,22 @@
     "whatsapp": {
       "name": "JHouse (listing owner)",
       "phone": "+84 901 310 986"
-    }
+    },
+    "price_vnd": 12000000,
+    "area": 40,
+    "rooms": "studio",
+    "baths": 1,
+    "available": "now",
+    "district": "District 1",
+    "ward": "Đa Kao",
+    "features": [
+      "balcony",
+      "washer",
+      "bathtub"
+    ],
+    "has_video": false,
+    "has_listing": true,
+    "photo_count": 7
   },
   {
     "id": "apt-018",
@@ -480,7 +753,25 @@
       "photo": "agents/kimee-dinh.jpg",
       "facebook": "https://www.facebook.com/profile.php?id=100088832354512"
     },
-    "approx": true
+    "approx": true,
+    "price_vnd": 12000000,
+    "area": 30,
+    "rooms": "studio",
+    "baths": 1,
+    "available": "11/09/2026",
+    "district": "District 1",
+    "ward": "Đa Kao",
+    "features": [
+      "parking",
+      "cleaning",
+      "laundry",
+      "wifi",
+      "tv",
+      "furnished"
+    ],
+    "has_video": false,
+    "has_listing": true,
+    "photo_count": 9
   },
   {
     "id": "apt-019",
@@ -508,7 +799,20 @@
       "photo": "agents/kimee-dinh.jpg",
       "facebook": "https://www.facebook.com/profile.php?id=100088832354512"
     },
-    "approx": true
+    "approx": true,
+    "price_vnd": 13000000,
+    "area": 35,
+    "rooms": "studio",
+    "baths": 1,
+    "available": "02/09/2026",
+    "district": "District 1",
+    "ward": "Đa Kao",
+    "features": [
+      "furnished"
+    ],
+    "has_video": false,
+    "has_listing": true,
+    "photo_count": 10
   },
   {
     "id": "apt-020",
@@ -535,7 +839,21 @@
       "name": "Kimee Dinh",
       "photo": "agents/kimee-dinh.jpg",
       "facebook": "https://www.facebook.com/profile.php?id=100088832354512"
-    }
+    },
+    "price_vnd": 13600000,
+    "area": 50,
+    "rooms": "1br",
+    "baths": 1,
+    "available": "now",
+    "district": "District 3",
+    "ward": "Xuân Hòa",
+    "features": [
+      "balcony",
+      "furnished"
+    ],
+    "has_video": false,
+    "has_listing": true,
+    "photo_count": 9
   },
   {
     "id": "apt-021",
@@ -558,7 +876,23 @@
       "name": "Kimee Dinh",
       "photo": "agents/kimee-dinh.jpg",
       "facebook": "https://www.facebook.com/profile.php?id=100088832354512"
-    }
+    },
+    "price_vnd": 14000000,
+    "area": null,
+    "rooms": "studio",
+    "baths": 1,
+    "available": "01/09/2026",
+    "district": "District 1",
+    "ward": "Tân Định",
+    "features": [
+      "elevator",
+      "parking",
+      "cleaning",
+      "furnished"
+    ],
+    "has_video": false,
+    "has_listing": true,
+    "photo_count": 5
   },
   {
     "id": "apt-022",
@@ -567,7 +901,7 @@
     "lat": 10.79268,
     "lng": 106.68436,
     "address": "Nguyễn Văn Mai, District 3",
-    "notes": "Separate WiFi for each room in the building\nRoom cleaning once a week\n\nArea not stated by the agent — worth asking, since you want 50 sqm minimum.",
+    "notes": "Separate WiFi for each room in the building\nRoom cleaning once a week\n\nArea not stated by the agent — worth asking before a viewing.",
     "link": "",
     "approx": true,
     "photos": [
@@ -582,7 +916,21 @@
       "name": "Nam Lê",
       "photo": "agents/nam-le.jpg",
       "facebook": "https://www.facebook.com/henryleehousing"
-    }
+    },
+    "price_vnd": 9600000,
+    "area": null,
+    "rooms": null,
+    "baths": null,
+    "available": null,
+    "district": "District 3",
+    "ward": null,
+    "features": [
+      "cleaning",
+      "wifi"
+    ],
+    "has_video": false,
+    "has_listing": false,
+    "photo_count": 6
   },
   {
     "id": "apt-023",
@@ -611,7 +959,20 @@
       "name": "Nam Lê",
       "photo": "agents/nam-le.jpg",
       "facebook": "https://www.facebook.com/henryleehousing"
-    }
+    },
+    "price_vnd": 14000000,
+    "area": 45,
+    "rooms": null,
+    "baths": null,
+    "available": null,
+    "district": "Phú Nhuận",
+    "ward": null,
+    "features": [
+      "balcony"
+    ],
+    "has_video": true,
+    "has_listing": false,
+    "photo_count": 11
   },
   {
     "id": "apt-024",
@@ -637,7 +998,18 @@
       "name": "Nam Lê",
       "photo": "agents/nam-le.jpg",
       "facebook": "https://www.facebook.com/henryleehousing"
-    }
+    },
+    "price_vnd": 11500000,
+    "area": null,
+    "rooms": null,
+    "baths": null,
+    "available": null,
+    "district": "District 3",
+    "ward": null,
+    "features": [],
+    "has_video": false,
+    "has_listing": false,
+    "photo_count": 8
   },
   {
     "id": "apt-025",
@@ -661,7 +1033,18 @@
       "name": "Nam Lê",
       "photo": "agents/nam-le.jpg",
       "facebook": "https://www.facebook.com/henryleehousing"
-    }
+    },
+    "price_vnd": 12500000,
+    "area": null,
+    "rooms": null,
+    "baths": null,
+    "available": null,
+    "district": "District 3",
+    "ward": null,
+    "features": [],
+    "has_video": false,
+    "has_listing": false,
+    "photo_count": 7
   },
   {
     "id": "apt-026",
@@ -691,6 +1074,23 @@
       "name": "Nguyễn Lê Phúc",
       "photo": "agents/nguyen-le-phuc.jpg",
       "facebook": "https://www.facebook.com/nguyen.le.phuc.394777"
-    }
+    },
+    "price_vnd": 12000000,
+    "area": 45,
+    "rooms": "1br",
+    "baths": null,
+    "available": null,
+    "district": "District 3",
+    "ward": "Nhiêu Lộc",
+    "features": [
+      "kitchen",
+      "elevator",
+      "parking",
+      "security",
+      "furnished"
+    ],
+    "has_video": false,
+    "has_listing": false,
+    "photo_count": 12
   }
 ]
