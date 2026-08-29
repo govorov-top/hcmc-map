@@ -1,5 +1,5 @@
-import { useMemo, useState } from 'react'
-import { MapContainer, TileLayer, GeoJSON, Marker, Tooltip, useMap } from 'react-leaflet'
+import { useEffect, useMemo, useState } from 'react'
+import { MapContainer, TileLayer, GeoJSON, Marker, Polyline, Tooltip, useMap } from 'react-leaflet'
 import L from 'leaflet'
 import 'leaflet/dist/leaflet.css'
 import isochrones from './isochrones.json'
@@ -58,9 +58,66 @@ function zoneOf(apt) {
   return null
 }
 
+// Valhalla encoded polyline, precision 1e6
+function decodePolyline(str) {
+  let i = 0, lat = 0, lng = 0
+  const coords = []
+  while (i < str.length) {
+    for (const which of [0, 1]) {
+      let shift = 0, result = 0, byte
+      do {
+        byte = str.charCodeAt(i++) - 63
+        result |= (byte & 0x1f) << shift
+        shift += 5
+      } while (byte >= 0x20)
+      const delta = result & 1 ? ~(result >> 1) : result >> 1
+      if (which === 0) lat += delta
+      else lng += delta
+    }
+    coords.push([lat / 1e6, lng / 1e6])
+  }
+  return coords
+}
+
+const routeCache = {}
+
+async function fetchRoute(apt, costing) {
+  const key = `${apt.id}:${costing}`
+  if (routeCache[key]) return routeCache[key]
+  const res = await fetch('https://valhalla1.openstreetmap.de/route', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify({
+      locations: [
+        { lat: SCHOOL.lat, lon: SCHOOL.lng },
+        { lat: apt.lat, lon: apt.lng },
+      ],
+      costing,
+      directions_options: { units: 'kilometers' },
+    }),
+  })
+  if (!res.ok) throw new Error(`route ${res.status}`)
+  const data = await res.json()
+  const leg = data.trip.legs[0]
+  const route = {
+    coords: decodePolyline(leg.shape),
+    minutes: Math.round(data.trip.summary.time / 60),
+    km: Math.round(data.trip.summary.length * 10) / 10,
+  }
+  routeCache[key] = route
+  return route
+}
+
+const ROUTE_STYLE = {
+  walk: { color: '#2563eb', dashArray: '8 8', label: '🚶 пешком' },
+  bike: { color: '#9333ea', dashArray: null, label: '🛵 на байке' },
+}
+
 function FlyTo({ target }) {
   const map = useMap()
-  if (target) map.flyTo([target.lat, target.lng], Math.max(map.getZoom(), 16), { duration: 0.6 })
+  useEffect(() => {
+    if (target) map.flyTo([target.lat, target.lng], Math.max(map.getZoom(), 16), { duration: 0.6 })
+  }, [target, map])
   return null
 }
 
@@ -93,12 +150,46 @@ function Gallery({ photos, title }) {
   )
 }
 
+function FitRoutes({ routes }) {
+  const map = useMap()
+  useEffect(() => {
+    const all = Object.values(routes).flatMap((r) => r?.coords ?? [])
+    if (all.length) map.fitBounds(L.latLngBounds(all), { padding: [60, 60] })
+  }, [routes, map])
+  return null
+}
+
 export default function App() {
   const [selected, setSelected] = useState(null)
   const [flyTarget, setFlyTarget] = useState(null)
+  const [routes, setRoutes] = useState({})
+  const [routesLoading, setRoutesLoading] = useState(false)
 
   const apts = useMemo(() => apartments.map((a) => ({ ...a, zone: zoneOf(a) })), [])
   const selectedApt = apts.find((a) => a.id === selected)
+
+  useEffect(() => {
+    if (!selectedApt) {
+      setRoutes({})
+      return
+    }
+    let cancelled = false
+    setRoutesLoading(true)
+    Promise.allSettled([
+      fetchRoute(selectedApt, 'pedestrian'),
+      fetchRoute(selectedApt, 'motor_scooter'),
+    ]).then(([walk, bike]) => {
+      if (cancelled) return
+      setRoutes({
+        walk: walk.status === 'fulfilled' ? walk.value : null,
+        bike: bike.status === 'fulfilled' ? bike.value : null,
+      })
+      setRoutesLoading(false)
+    })
+    return () => {
+      cancelled = true
+    }
+  }, [selectedApt])
 
   const layers = useMemo(
     () =>
@@ -153,6 +244,24 @@ export default function App() {
             <Tooltip direction="top" offset={[0, -36]}>{a.title}</Tooltip>
           </Marker>
         ))}
+        {Object.entries(routes).map(
+          ([k, r]) =>
+            r && (
+              <Polyline
+                key={`${k}-${selected}`}
+                positions={r.coords}
+                pathOptions={{
+                  color: ROUTE_STYLE[k].color,
+                  weight: 5,
+                  opacity: 0.85,
+                  dashArray: ROUTE_STYLE[k].dashArray,
+                }}
+              >
+                <Tooltip sticky>{`${ROUTE_STYLE[k].label} — ${r.minutes} мин, ${r.km} км`}</Tooltip>
+              </Polyline>
+            )
+        )}
+        <FitRoutes routes={routes} />
         <FlyTo target={flyTarget} />
       </MapContainer>
 
@@ -202,6 +311,21 @@ export default function App() {
             ) : (
               <div className="zone-badge" style={{ background: '#64748b' }}>дальше 45 мин пешком</div>
             )}
+            <div className="routes">
+              {routesLoading && <span className="route-chip muted">маршруты…</span>}
+              {!routesLoading &&
+                Object.entries(routes).map(([k, r]) => (
+                  <span
+                    key={k}
+                    className="route-chip"
+                    style={{ '--rc': ROUTE_STYLE[k].color }}
+                  >
+                    {r
+                      ? `${ROUTE_STYLE[k].label}: ${r.minutes} мин · ${r.km} км`
+                      : `${ROUTE_STYLE[k].label}: н/д`}
+                  </span>
+                ))}
+            </div>
             {selectedApt.address && <p className="addr">📍 {selectedApt.address}</p>}
             {selectedApt.notes && <p className="notes">{selectedApt.notes}</p>}
             <div className="card-links">

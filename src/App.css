@@ -148,6 +148,18 @@ html, body, #root {
   border-radius: 999px;
   margin: 4px 0 8px;
 }
+.routes { display: flex; gap: 8px; flex-wrap: wrap; margin: 4px 0 8px; }
+.route-chip {
+  font-size: 12px;
+  font-weight: 600;
+  padding: 4px 10px;
+  border-radius: 999px;
+  background: #f1f5f9;
+  border-left: 4px solid var(--rc, #94a3b8);
+  color: #1e293b;
+}
+.route-chip.muted { color: #94a3b8; border-left-color: #cbd5e1; }
+
 .addr { margin: 6px 0; font-size: 13px; color: #475569; }
 .notes { margin: 6px 0; font-size: 13px; white-space: pre-wrap; }
 .card-links { display: flex; gap: 14px; margin-top: 10px; flex-wrap: wrap; }
