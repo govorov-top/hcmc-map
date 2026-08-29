@@ -579,5 +579,34 @@
       "photo": "agents/nam-le.jpg",
       "facebook": "https://www.facebook.com/henryleehousing"
     }
+  },
+  {
+    "id": "apt-023",
+    "title": "Apartment · 45 sqm · large balcony",
+    "price": "14M ₫/mo",
+    "lat": 10.7959435,
+    "lng": 106.6832502,
+    "address": "46 Cô Giang, Cầu Kiệu",
+    "notes": "45 sqm · very large balcony\n🎥 Walkthrough video from the agent is the first item in the gallery",
+    "link": "",
+    "photos": [
+      "photos/apt-023/tour.mp4",
+      "photos/apt-023/1.jpg",
+      "photos/apt-023/2.jpg",
+      "photos/apt-023/3.jpg",
+      "photos/apt-023/4.jpg",
+      "photos/apt-023/5.jpg",
+      "photos/apt-023/6.jpg",
+      "photos/apt-023/7.jpg",
+      "photos/apt-023/8.jpg",
+      "photos/apt-023/9.jpg",
+      "photos/apt-023/10.jpg",
+      "photos/apt-023/11.jpg"
+    ],
+    "agent": {
+      "name": "Nam Lê",
+      "photo": "agents/nam-le.jpg",
+      "facebook": "https://www.facebook.com/henryleehousing"
+    }
   }
 ]

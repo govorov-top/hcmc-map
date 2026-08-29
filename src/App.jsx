@@ -124,29 +124,42 @@ function FlyTo({ target }) {
   return null
 }
 
+const isVideo = (src) => /\.(mp4|webm|mov)$/i.test(src)
+
 function Gallery({ photos, title }) {
   const [i, setI] = useState(0)
   const [zoomed, setZoomed] = useState(false)
   if (!photos?.length) return null
+  const current = photos[i]
+  const video = isVideo(current)
   return (
     <>
       <div className="gallery">
-        <img src={photos[i]} alt={title} onClick={() => setZoomed(true)} />
+        {video ? (
+          <video src={current} controls playsInline preload="metadata" />
+        ) : (
+          <img src={current} alt={title} onClick={() => setZoomed(true)} />
+        )}
         {photos.length > 1 && (
           <>
             <button className="nav prev" onClick={() => setI((i - 1 + photos.length) % photos.length)}>‹</button>
             <button className="nav next" onClick={() => setI((i + 1) % photos.length)}>›</button>
             <div className="dots">
-              {photos.map((_, k) => (
-                <span key={k} className={k === i ? 'on' : ''} onClick={() => setI(k)} />
+              {photos.map((p, k) => (
+                <span
+                  key={k}
+                  className={`${k === i ? 'on' : ''} ${isVideo(p) ? 'vid' : ''}`}
+                  onClick={() => setI(k)}
+                />
               ))}
             </div>
           </>
         )}
+        {photos.some(isVideo) && !video && <span className="video-hint">▶ video inside</span>}
       </div>
-      {zoomed && (
+      {zoomed && !video && (
         <div className="lightbox" onClick={() => setZoomed(false)}>
-          <img src={photos[i]} alt={title} />
+          <img src={current} alt={title} />
         </div>
       )}
     </>
