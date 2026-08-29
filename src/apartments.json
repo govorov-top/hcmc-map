@@ -658,5 +658,35 @@
       "photo": "agents/nam-le.jpg",
       "facebook": "https://www.facebook.com/henryleehousing"
     }
+  },
+  {
+    "id": "apt-026",
+    "title": "1BR · 45 sqm · separate bedroom & kitchen",
+    "price": "12M ₫/mo",
+    "lat": 10.7894003,
+    "lng": 106.6750499,
+    "address": "453KA/62 Lê Văn Sỹ, Nhiêu Lộc Ward",
+    "notes": "45 sqm · separate bedroom, kitchen and bathroom · fully furnished\nBuilding: fingerprint access, 24/7 CCTV, full fire safety system, elevator, car-friendly alley\n\nElectricity 4,000 ₫/kWh · water 25,000 ₫/m³ · service fee 150k ₫/person\nFree parking for 2 motorbikes",
+    "link": "",
+    "approx": true,
+    "photos": [
+      "photos/apt-026/1.jpg",
+      "photos/apt-026/2.jpg",
+      "photos/apt-026/3.jpg",
+      "photos/apt-026/4.jpg",
+      "photos/apt-026/5.jpg",
+      "photos/apt-026/6.jpg",
+      "photos/apt-026/7.jpg",
+      "photos/apt-026/8.jpg",
+      "photos/apt-026/9.jpg",
+      "photos/apt-026/10.jpg",
+      "photos/apt-026/11.jpg",
+      "photos/apt-026/12.jpg"
+    ],
+    "agent": {
+      "name": "Nguyễn Lê Phúc",
+      "photo": "agents/nguyen-le-phuc.jpg",
+      "facebook": "https://www.facebook.com/nguyen.le.phuc.394777"
+    }
   }
 ]
