@@ -71,5 +71,29 @@
       "photo": "agents/jayden-le.jpg",
       "facebook": "https://www.facebook.com/profile.php?id=61589576163427"
     }
+  },
+  {
+    "id": "apt-004",
+    "title": "1BR apartment · 40 sqm · services included",
+    "price": "12.5M ₫/mo",
+    "lat": 10.796801,
+    "lng": 106.707789,
+    "address": "30/61 Nguyễn Cửu Vân, Ward 17, Bình Thạnh District",
+    "notes": "1 bedroom, 1 bathroom · 40 sqm\nFully furnished: bed, TV, washer, dryer, AC, fridge\n🗓️ Available: 01/09/2026\n\nRent includes: room cleaning 2×/week, bedsheet change 1×/week, laundry 2×/week, internet, motorbike parking\nExcludes: management fee 200k ₫/person/mo, electricity 4,800 ₫/kWh, water 200k ₫/person/mo",
+    "link": "",
+    "photos": [
+      "photos/apt-004/1.jpg",
+      "photos/apt-004/2.jpg",
+      "photos/apt-004/3.jpg",
+      "photos/apt-004/4.jpg",
+      "photos/apt-004/5.jpg",
+      "photos/apt-004/6.jpg",
+      "photos/apt-004/7.jpg"
+    ],
+    "agent": {
+      "name": "Jayden Le",
+      "photo": "agents/jayden-le.jpg",
+      "facebook": "https://www.facebook.com/profile.php?id=61589576163427"
+    }
   }
 ]
