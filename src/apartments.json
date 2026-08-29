@@ -305,5 +305,34 @@
       "photo": "agents/le-phuong-nhi.jpg",
       "facebook": "https://www.facebook.com/nhi.sokeo"
     }
+  },
+  {
+    "id": "apt-013",
+    "title": "Bright studio with balcony · 40 sqm (Khouse NTMK)",
+    "price": "13M ₫/mo",
+    "lat": 10.785243,
+    "lng": 106.698287,
+    "address": "Nguyễn Thị Minh Khai, Bến Nghé Ward, District 1",
+    "notes": "Studio, 1 bathroom · 40 sqm\nBalcony and washer at Khouse NTMK\n🗓️ Available now\n\nPhotos taken from the JHouse listing.",
+    "link": "https://jhouse.vn/property/bright-studio-apartment-balcony-washer-khouse-ntmk/",
+    "photos": [
+      "photos/apt-013/1.jpg",
+      "photos/apt-013/2.jpg",
+      "photos/apt-013/3.jpg",
+      "photos/apt-013/4.jpg",
+      "photos/apt-013/5.jpg",
+      "photos/apt-013/6.jpg",
+      "photos/apt-013/7.jpg",
+      "photos/apt-013/8.jpg",
+      "photos/apt-013/9.jpg",
+      "photos/apt-013/10.jpg",
+      "photos/apt-013/11.jpg",
+      "photos/apt-013/12.jpg"
+    ],
+    "agent": {
+      "name": "Lê Phương Nhi",
+      "photo": "agents/le-phuong-nhi.jpg",
+      "facebook": "https://www.facebook.com/nhi.sokeo"
+    }
   }
 ]
