@@ -328,6 +328,20 @@ export default function App() {
             </div>
             {selectedApt.address && <p className="addr">📍 {selectedApt.address}</p>}
             {selectedApt.notes && <p className="notes">{selectedApt.notes}</p>}
+            {selectedApt.agent && (
+              <a
+                className="agent"
+                href={selectedApt.agent.facebook}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src={selectedApt.agent.photo} alt={selectedApt.agent.name} />
+                <span>
+                  <span className="agent-name">{selectedApt.agent.name}</span>
+                  <span className="agent-sub">Agent · Facebook ↗</span>
+                </span>
+              </a>
+            )}
             <div className="card-links">
               {selectedApt.link && (
                 <a href={selectedApt.link} target="_blank" rel="noreferrer">Listing ↗</a>

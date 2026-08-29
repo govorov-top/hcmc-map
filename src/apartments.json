@@ -1,13 +1,26 @@
 [
   {
-    "id": "demo",
-    "title": "Demo apartment (will be removed)",
-    "price": "10M ₫/mo",
-    "lat": 10.7935,
-    "lng": 106.6812,
-    "address": "Ví dụ, Quận Phú Nhuận",
-    "notes": "This is a demo card to show the layout. Send the first real apartment and it will replace this one.",
+    "id": "apt-001",
+    "title": "Studio fully furnished · 28 sqm",
+    "price": "11.5M ₫/mo",
+    "lat": 10.7626,
+    "lng": 106.6957,
+    "address": "Đề Thám, Cô Giang Ward, District 1",
+    "notes": "Studio, 1 bathroom · 28 sqm\nFully furnished: bed, TV, washer, dryer, AC, fridge\n🗓️ Available now\nFree online temporary residence registration",
     "link": "",
-    "photos": ["photos/demo/1.svg", "photos/demo/2.svg"]
+    "photos": [
+      "photos/apt-001/1.jpg",
+      "photos/apt-001/2.jpg",
+      "photos/apt-001/3.jpg",
+      "photos/apt-001/4.jpg",
+      "photos/apt-001/5.jpg",
+      "photos/apt-001/6.jpg",
+      "photos/apt-001/7.jpg"
+    ],
+    "agent": {
+      "name": "Jayden Le",
+      "photo": "agents/jayden-le.jpg",
+      "facebook": "https://www.facebook.com/profile.php?id=61589576163427"
+    }
   }
 ]
