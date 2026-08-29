@@ -370,6 +370,22 @@ export default function App() {
                 </span>
               </a>
             )}
+            {selectedApt.whatsapp && (
+              <a
+                className="agent whatsapp"
+                href={`https://wa.me/${selectedApt.whatsapp.phone.replace(/[^\d]/g, '')}?text=${encodeURIComponent(
+                  `Hi! I'm interested in "${selectedApt.title}" (${selectedApt.address}). Is it still available?`
+                )}`}
+                target="_blank"
+                rel="noreferrer"
+              >
+                <img src="agents/whatsapp.svg" alt="WhatsApp" />
+                <span>
+                  <span className="agent-name">{selectedApt.whatsapp.name || 'WhatsApp'}</span>
+                  <span className="agent-sub">{selectedApt.whatsapp.phone} · open chat ↗</span>
+                </span>
+              </a>
+            )}
             <div className="card-links">
               {selectedApt.link && (
                 <a href={selectedApt.link} target="_blank" rel="noreferrer">Listing ↗</a>

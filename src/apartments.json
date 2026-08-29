@@ -434,7 +434,7 @@
     "lat": 10.785261,
     "lng": 106.69496,
     "address": "Nguyễn Thị Minh Khai, Đa Kao Ward, District 1",
-    "notes": "Studio, 1 bathroom · 40 sqm\nBalcony, washer and bathtub at Twin Pines\n🗓️ Available now\n\nPhotos and location taken from the JHouse listing.",
+    "notes": "Studio, 1 bathroom · 40 sqm\nBalcony, washer and bathtub at Twin Pines\n🗓️ Available now\n\nPhotos and location taken from the JHouse listing (ID H02113).",
     "link": "https://jhouse.vn/property/studio-apartment-balcony-washer-bathtub-twin-pines-d1/",
     "photos": [
       "photos/apt-017/1.jpg",
@@ -449,6 +449,10 @@
       "name": "Huynh Anh",
       "photo": "agents/huynh-anh.jpg",
       "facebook": "https://www.facebook.com/huynh.anh.273572"
+    },
+    "whatsapp": {
+      "name": "JHouse (listing owner)",
+      "phone": "+84 901 310 986"
     }
   },
   {

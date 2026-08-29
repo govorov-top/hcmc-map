@@ -238,6 +238,13 @@ html, body, #root {
   color: inherit;
 }
 .agent:hover { background: #f1f5f9; }
+.agent + .agent { margin-top: 6px; }
+.agent.whatsapp {
+  background: #f0fdf4;
+  border-color: #bbf7d0;
+}
+.agent.whatsapp:hover { background: #dcfce7; }
+.agent.whatsapp .agent-sub { color: #15803d; }
 .agent img {
   width: 40px; height: 40px;
   border-radius: 50%;
