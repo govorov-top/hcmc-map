@@ -145,5 +145,32 @@
       "photo": "agents/jayden-le.jpg",
       "facebook": "https://www.facebook.com/profile.php?id=61589576163427"
     }
+  },
+  {
+    "id": "apt-007",
+    "title": "Studio · 30 sqm (HELEN'S apartment)",
+    "price": "9.5M ₫/mo",
+    "lat": 10.792877,
+    "lng": 106.684073,
+    "address": "Nguyễn Văn Mai, Ward 8, District 3",
+    "notes": "Studio · 30 sqm\nFully furnished: bed, TV, washer, dryer, AC, fridge\n🗓️ Available now",
+    "link": "",
+    "photos": [
+      "photos/apt-007/1.jpg",
+      "photos/apt-007/2.jpg",
+      "photos/apt-007/3.jpg",
+      "photos/apt-007/4.jpg",
+      "photos/apt-007/5.jpg",
+      "photos/apt-007/6.jpg",
+      "photos/apt-007/7.jpg",
+      "photos/apt-007/8.jpg",
+      "photos/apt-007/9.jpg",
+      "photos/apt-007/10.jpg"
+    ],
+    "agent": {
+      "name": "Jayden Le",
+      "photo": "agents/jayden-le.jpg",
+      "facebook": "https://www.facebook.com/profile.php?id=61589576163427"
+    }
   }
 ]
