@@ -505,5 +505,32 @@
       "facebook": "https://www.facebook.com/profile.php?id=100088832354512"
     },
     "approx": true
+  },
+  {
+    "id": "apt-020",
+    "title": "1BR · 50 sqm · private balcony",
+    "price": "13.6M ₫/mo (1-year lease)",
+    "lat": 10.78282,
+    "lng": 106.68673,
+    "address": "Alley 128 Trần Quốc Thảo, Xuân Hòa Ward, District 3",
+    "notes": "1 bedroom, 1 bathroom · 50 sqm · fully furnished\nPrivate balcony, 2 large windows, spacious and bright\n🔑 3rd floor · available now\n\n14M ₫/mo, or 13.6M ₫/mo on a 1-year lease",
+    "link": "https://www.facebook.com/share/p/1ByjwWPWtj/",
+    "approx": true,
+    "photos": [
+      "photos/apt-020/1.jpg",
+      "photos/apt-020/2.jpg",
+      "photos/apt-020/3.jpg",
+      "photos/apt-020/4.jpg",
+      "photos/apt-020/5.jpg",
+      "photos/apt-020/6.jpg",
+      "photos/apt-020/7.jpg",
+      "photos/apt-020/8.jpg",
+      "photos/apt-020/9.jpg"
+    ],
+    "agent": {
+      "name": "Kimee Dinh",
+      "photo": "agents/kimee-dinh.jpg",
+      "facebook": "https://www.facebook.com/profile.php?id=100088832354512"
+    }
   }
 ]
