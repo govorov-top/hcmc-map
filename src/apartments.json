@@ -22,5 +22,30 @@
       "photo": "agents/jayden-le.jpg",
       "facebook": "https://www.facebook.com/profile.php?id=61589576163427"
     }
+  },
+  {
+    "id": "apt-002",
+    "title": "Fully furnished apartment",
+    "price": "13M ₫/mo",
+    "lat": 10.7862,
+    "lng": 106.7008,
+    "address": "Nguyễn Bỉnh Khiêm, Đa Kao Ward, District 1",
+    "notes": "Fully furnished: bed, TV, washer, dryer, AC, fridge",
+    "link": "",
+    "photos": [
+      "photos/apt-002/1.jpg",
+      "photos/apt-002/2.jpg",
+      "photos/apt-002/3.jpg",
+      "photos/apt-002/4.jpg",
+      "photos/apt-002/5.jpg",
+      "photos/apt-002/6.jpg",
+      "photos/apt-002/7.jpg",
+      "photos/apt-002/8.jpg"
+    ],
+    "agent": {
+      "name": "Jayden Le",
+      "photo": "agents/jayden-le.jpg",
+      "facebook": "https://www.facebook.com/profile.php?id=61589576163427"
+    }
   }
 ]
