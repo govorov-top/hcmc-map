@@ -119,5 +119,31 @@
       "photo": "agents/jayden-le.jpg",
       "facebook": "https://www.facebook.com/profile.php?id=61589576163427"
     }
+  },
+  {
+    "id": "apt-006",
+    "title": "Studio · 35 sqm",
+    "price": "9M ₫/mo",
+    "lat": 10.790981,
+    "lng": 106.679366,
+    "address": "Hẻm 108 Trần Quang Diệu, Ward 14, District 3",
+    "notes": "Studio, 1 bathroom · 35 sqm\nFully furnished: bed, TV, washer, dryer, AC, fridge\n🗓️ Available now",
+    "link": "",
+    "photos": [
+      "photos/apt-006/1.jpg",
+      "photos/apt-006/2.jpg",
+      "photos/apt-006/3.jpg",
+      "photos/apt-006/4.jpg",
+      "photos/apt-006/5.jpg",
+      "photos/apt-006/6.jpg",
+      "photos/apt-006/7.jpg",
+      "photos/apt-006/8.jpg",
+      "photos/apt-006/9.jpg"
+    ],
+    "agent": {
+      "name": "Jayden Le",
+      "photo": "agents/jayden-le.jpg",
+      "facebook": "https://www.facebook.com/profile.php?id=61589576163427"
+    }
   }
 ]
