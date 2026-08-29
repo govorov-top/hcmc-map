@@ -220,5 +220,39 @@
       "photo": "agents/hoang-le-thu.jpg",
       "facebook": "https://www.facebook.com/hoang.thi.le.thu.2024"
     }
+  },
+  {
+    "id": "apt-010",
+    "title": "Studio with balcony + rooftop terrace",
+    "price": "14M ₫/mo",
+    "lat": 10.760644,
+    "lng": 106.691337,
+    "address": "122M Trần Đình Xứ, District 1",
+    "notes": "Fully furnished studio\nKitchen, washer and dryer, private balcony\nAccess to rooftop terrace\n\nPrice excludes electricity and water\n\n⚠️ Pin is street-level accurate — no map link was provided for the exact building.",
+    "link": "",
+    "photos": [
+      "photos/apt-010/1.jpg",
+      "photos/apt-010/2.jpg",
+      "photos/apt-010/3.jpg",
+      "photos/apt-010/4.jpg",
+      "photos/apt-010/5.jpg",
+      "photos/apt-010/6.jpg",
+      "photos/apt-010/7.jpg",
+      "photos/apt-010/8.jpg",
+      "photos/apt-010/9.jpg",
+      "photos/apt-010/10.jpg",
+      "photos/apt-010/11.jpg",
+      "photos/apt-010/12.jpg",
+      "photos/apt-010/13.jpg",
+      "photos/apt-010/14.jpg",
+      "photos/apt-010/15.jpg",
+      "photos/apt-010/16.jpg",
+      "photos/apt-010/17.jpg"
+    ],
+    "agent": {
+      "name": "Thư Nguyễn",
+      "photo": "agents/thu-nguyen.jpg",
+      "facebook": "https://www.facebook.com/ThuNguyen41"
+    }
   }
 ]
