@@ -172,5 +172,28 @@
       "photo": "agents/jayden-le.jpg",
       "facebook": "https://www.facebook.com/profile.php?id=61589576163427"
     }
+  },
+  {
+    "id": "apt-008",
+    "title": "Unit 501 · 1BR + balcony",
+    "price": "13M ₫/mo",
+    "lat": 10.771322,
+    "lng": 106.689852,
+    "address": "150 Bùi Thị Xuân, Bến Thành Ward, District 1",
+    "notes": "Unit 501 · 1 bedroom + balcony\n🗓️ Available immediately\n\n⚠️ Pin is street-level accurate — no map link was provided for the exact building.",
+    "link": "",
+    "photos": [
+      "photos/apt-008/1.jpg",
+      "photos/apt-008/2.jpg",
+      "photos/apt-008/3.jpg",
+      "photos/apt-008/4.jpg",
+      "photos/apt-008/5.jpg",
+      "photos/apt-008/6.jpg"
+    ],
+    "agent": {
+      "name": "Hoàng Lệ Thu",
+      "photo": "agents/hoang-le-thu.jpg",
+      "facebook": "https://www.facebook.com/hoang.thi.le.thu.2024"
+    }
   }
 ]
