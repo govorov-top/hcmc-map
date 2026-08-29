@@ -555,5 +555,29 @@
       "photo": "agents/kimee-dinh.jpg",
       "facebook": "https://www.facebook.com/profile.php?id=100088832354512"
     }
+  },
+  {
+    "id": "apt-022",
+    "title": "Apartment on Nguyễn Văn Mai",
+    "price": "9.6M ₫/mo",
+    "lat": 10.79268,
+    "lng": 106.68436,
+    "address": "Nguyễn Văn Mai, District 3",
+    "notes": "Separate WiFi for each room in the building\nRoom cleaning once a week\n\nArea not stated by the agent — worth asking, since you want 50 sqm minimum.",
+    "link": "",
+    "approx": true,
+    "photos": [
+      "photos/apt-022/1.jpg",
+      "photos/apt-022/2.jpg",
+      "photos/apt-022/3.jpg",
+      "photos/apt-022/4.jpg",
+      "photos/apt-022/5.jpg",
+      "photos/apt-022/6.jpg"
+    ],
+    "agent": {
+      "name": "Nam Lê",
+      "photo": "agents/nam-le.jpg",
+      "facebook": "https://www.facebook.com/henryleehousing"
+    }
   }
 ]
