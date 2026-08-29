@@ -392,5 +392,60 @@
       "photo": "agents/le-phuong-nhi.jpg",
       "facebook": "https://www.facebook.com/nhi.sokeo"
     }
+  },
+  {
+    "id": "apt-016",
+    "title": "Cozy studio (Maison Huong 3B)",
+    "price": "15M ₫/mo",
+    "lat": 10.790696,
+    "lng": 106.688528,
+    "address": "Tân Định Ward, District 1",
+    "notes": "Cozy studio apartment at Maison Huong\n🗓️ Available: 09/09/2026\n\nPhotos and location taken from the JHouse listing.",
+    "link": "https://jhouse.vn/property/cozy-studio-apartment-for-rent-district-1-maison-huong-3b/",
+    "photos": [
+      "photos/apt-016/1.jpg",
+      "photos/apt-016/2.jpg",
+      "photos/apt-016/3.jpg",
+      "photos/apt-016/4.jpg",
+      "photos/apt-016/5.jpg",
+      "photos/apt-016/6.jpg",
+      "photos/apt-016/7.jpg",
+      "photos/apt-016/8.jpg",
+      "photos/apt-016/9.jpg",
+      "photos/apt-016/10.jpg",
+      "photos/apt-016/11.jpg",
+      "photos/apt-016/12.jpg",
+      "photos/apt-016/13.jpg",
+      "photos/apt-016/14.jpg"
+    ],
+    "agent": {
+      "name": "Huynh Anh",
+      "photo": "agents/huynh-anh.jpg",
+      "facebook": "https://www.facebook.com/huynh.anh.273572"
+    }
+  },
+  {
+    "id": "apt-017",
+    "title": "Studio with balcony, washer & bathtub · 40 sqm (Twin Pines)",
+    "price": "12M ₫/mo",
+    "lat": 10.785261,
+    "lng": 106.69496,
+    "address": "Nguyễn Thị Minh Khai, Đa Kao Ward, District 1",
+    "notes": "Studio, 1 bathroom · 40 sqm\nBalcony, washer and bathtub at Twin Pines\n🗓️ Available now\n\nPhotos and location taken from the JHouse listing.",
+    "link": "https://jhouse.vn/property/studio-apartment-balcony-washer-bathtub-twin-pines-d1/",
+    "photos": [
+      "photos/apt-017/1.jpg",
+      "photos/apt-017/2.jpg",
+      "photos/apt-017/3.jpg",
+      "photos/apt-017/4.jpg",
+      "photos/apt-017/5.jpg",
+      "photos/apt-017/6.jpg",
+      "photos/apt-017/7.jpg"
+    ],
+    "agent": {
+      "name": "Huynh Anh",
+      "photo": "agents/huynh-anh.jpg",
+      "facebook": "https://www.facebook.com/huynh.anh.273572"
+    }
   }
 ]
