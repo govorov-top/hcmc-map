@@ -119,7 +119,16 @@ const ROUTE_STYLE = {
 function FlyTo({ target }) {
   const map = useMap()
   useEffect(() => {
-    if (target) map.flyTo([target.lat, target.lng], Math.max(map.getZoom(), 16), { duration: 0.6 })
+    if (!target) return
+    const { lat, lng } = target
+    if (!Number.isFinite(lat) || !Number.isFinite(lng)) return
+    const size = map.getSize()
+    // a hidden/zero-sized container makes Leaflet's flyTo produce NaN internally
+    if (size.x < 2 || size.y < 2) {
+      map.setView([lat, lng], Math.max(map.getZoom(), 16), { animate: false })
+      return
+    }
+    map.flyTo([lat, lng], Math.max(map.getZoom(), 16), { duration: 0.6 })
   }, [target, map])
   return null
 }
@@ -210,8 +219,14 @@ const fmtM = (v) => (v % 1000000 === 0 ? `${v / 1000000}M` : `${(v / 1000000).to
 function FitRoutes({ routes }) {
   const map = useMap()
   useEffect(() => {
-    const all = Object.values(routes).flatMap((r) => r?.coords ?? [])
-    if (all.length) map.fitBounds(L.latLngBounds(all), { padding: [60, 60] })
+    const all = Object
+      .values(routes)
+      .flatMap((r) => r?.coords ?? [])
+      .filter((c) => Number.isFinite(c[0]) && Number.isFinite(c[1]))
+    if (!all.length) return
+    const size = map.getSize()
+    if (size.x < 2 || size.y < 2) return
+    map.fitBounds(L.latLngBounds(all), { padding: [60, 60] })
   }, [routes, map])
   return null
 }
