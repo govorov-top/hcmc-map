@@ -254,5 +254,31 @@
       "photo": "agents/thu-nguyen.jpg",
       "facebook": "https://www.facebook.com/ThuNguyen41"
     }
+  },
+  {
+    "id": "apt-011",
+    "title": "Modern 1BR with washer · 40 sqm (Stay In Here)",
+    "price": "12.5M ₫/mo",
+    "lat": 10.788129,
+    "lng": 106.672513,
+    "address": "Lê Văn Sỹ, Ward 14, District 3",
+    "notes": "1 bedroom, 1 bathroom · 40 sqm\nModern apartment with washer at Stay In Here\n🗓️ Available: 30/08/2026",
+    "link": "https://jhouse.vn/property/modern-1-br-apartment-washer-at-stay-in-here-district-3/",
+    "photos": [
+      "photos/apt-011/1.jpg",
+      "photos/apt-011/2.jpg",
+      "photos/apt-011/3.jpg",
+      "photos/apt-011/4.jpg",
+      "photos/apt-011/5.jpg",
+      "photos/apt-011/6.jpg",
+      "photos/apt-011/7.jpg",
+      "photos/apt-011/8.jpg",
+      "photos/apt-011/9.jpg"
+    ],
+    "agent": {
+      "name": "Lê Phương Nhi",
+      "photo": "agents/le-phuong-nhi.jpg",
+      "facebook": "https://www.facebook.com/nhi.sokeo"
+    }
   }
 ]
