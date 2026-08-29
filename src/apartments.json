@@ -447,5 +447,31 @@
       "photo": "agents/huynh-anh.jpg",
       "facebook": "https://www.facebook.com/huynh.anh.273572"
     }
+  },
+  {
+    "id": "apt-018",
+    "title": "Studio · 30 sqm · unit 402 (AMR)",
+    "price": "12M ₫/mo",
+    "lat": 10.79305,
+    "lng": 106.7001,
+    "address": "Hoàng Sa, Đa Kao Ward, District 1",
+    "notes": "Studio, 1 bathroom · 30 sqm · fully furnished\n🔑 Unit 402 · available from 11/09/2026\n\nIncluded: cleaning 3×/week, laundry 3×/week (no ironing), shared laundry area, bedsheet change 1×/week, WiFi 100–200 Mbps, smart TV, maintenance, free motorbike parking (1 bike)\nNot included: electricity 4,500 ₫/kWh, water 150k ₫/person/mo, ironing\nDeposit 1–2 months · no pets\n\n⚠️ Pin is street-level accurate — no map link was provided for the exact building.",
+    "link": "https://www.facebook.com/share/p/1ZESYZknGF/",
+    "photos": [
+      "photos/apt-018/1.jpg",
+      "photos/apt-018/2.jpg",
+      "photos/apt-018/3.jpg",
+      "photos/apt-018/4.jpg",
+      "photos/apt-018/5.jpg",
+      "photos/apt-018/6.jpg",
+      "photos/apt-018/7.jpg",
+      "photos/apt-018/8.jpg",
+      "photos/apt-018/9.jpg"
+    ],
+    "agent": {
+      "name": "Kimee Dinh",
+      "photo": "agents/kimee-dinh.jpg",
+      "facebook": "https://www.facebook.com/profile.php?id=100088832354512"
+    }
   }
 ]
