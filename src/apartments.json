@@ -634,5 +634,29 @@
       "photo": "agents/nam-le.jpg",
       "facebook": "https://www.facebook.com/henryleehousing"
     }
+  },
+  {
+    "id": "apt-025",
+    "title": "Apartment on Cách Mạng Tháng Tám",
+    "price": "12.5M ₫/mo",
+    "lat": 10.783514,
+    "lng": 106.6711232,
+    "address": "410 Cách Mạng Tháng Tám, Nhiêu Lộc, District 3",
+    "notes": "Area, layout and services not stated by the agent — worth asking before a viewing.",
+    "link": "",
+    "photos": [
+      "photos/apt-025/1.jpg",
+      "photos/apt-025/2.jpg",
+      "photos/apt-025/3.jpg",
+      "photos/apt-025/4.jpg",
+      "photos/apt-025/5.jpg",
+      "photos/apt-025/6.jpg",
+      "photos/apt-025/7.jpg"
+    ],
+    "agent": {
+      "name": "Nam Lê",
+      "photo": "agents/nam-le.jpg",
+      "facebook": "https://www.facebook.com/henryleehousing"
+    }
   }
 ]
