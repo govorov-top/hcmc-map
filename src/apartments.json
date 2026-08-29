@@ -975,43 +975,6 @@
     "photo_count": 11
   },
   {
-    "id": "apt-024",
-    "title": "Apartment on Võ Thị Sáu",
-    "price": "11.5M ₫/mo",
-    "lat": 10.78452,
-    "lng": 106.68862,
-    "address": "Võ Thị Sáu, District 3",
-    "notes": "Area, layout and services not stated by the agent — worth asking before a viewing.",
-    "link": "",
-    "approx": true,
-    "photos": [
-      "photos/apt-024/1.jpg",
-      "photos/apt-024/2.jpg",
-      "photos/apt-024/3.jpg",
-      "photos/apt-024/4.jpg",
-      "photos/apt-024/5.jpg",
-      "photos/apt-024/6.jpg",
-      "photos/apt-024/7.jpg",
-      "photos/apt-024/8.jpg"
-    ],
-    "agent": {
-      "name": "Nam Lê",
-      "photo": "agents/nam-le.jpg",
-      "facebook": "https://www.facebook.com/henryleehousing"
-    },
-    "price_vnd": 11500000,
-    "area": null,
-    "rooms": null,
-    "baths": null,
-    "available": null,
-    "district": "District 3",
-    "ward": null,
-    "features": [],
-    "has_video": false,
-    "has_listing": false,
-    "photo_count": 8
-  },
-  {
     "id": "apt-025",
     "title": "Apartment on Cách Mạng Tháng Tám",
     "price": "12.5M ₫/mo",
