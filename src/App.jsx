@@ -6,12 +6,12 @@ import isochrones from './isochrones.json'
 import apartments from './apartments.json'
 import './App.css'
 
-const SCHOOL = { lat: 10.7902254, lng: 106.6883564, name: 'Школа (Muse Inc)' }
+const SCHOOL = { lat: 10.7902254, lng: 106.6883564, name: 'School (Muse Inc)' }
 
 const ZONES = {
-  25: { color: '#16a34a', label: '≤ 25 мин пешком' },
-  35: { color: '#eab308', label: '25–35 мин пешком' },
-  45: { color: '#dc2626', label: '35–45 мин пешком' },
+  25: { color: '#16a34a', label: '≤ 25 min walk' },
+  35: { color: '#eab308', label: '25–35 min walk' },
+  45: { color: '#dc2626', label: '35–45 min walk' },
 }
 
 const schoolIcon = L.divIcon({
@@ -109,8 +109,8 @@ async function fetchRoute(apt, costing) {
 }
 
 const ROUTE_STYLE = {
-  walk: { color: '#2563eb', dashArray: '8 8', label: '🚶 пешком' },
-  bike: { color: '#9333ea', dashArray: null, label: '🛵 на байке' },
+  walk: { color: '#2563eb', dashArray: '8 8', label: '🚶 walk' },
+  bike: { color: '#9333ea', dashArray: null, label: '🛵 bike' },
 }
 
 function FlyTo({ target }) {
@@ -257,7 +257,7 @@ export default function App() {
                   dashArray: ROUTE_STYLE[k].dashArray,
                 }}
               >
-                <Tooltip sticky>{`${ROUTE_STYLE[k].label} — ${r.minutes} мин, ${r.km} км`}</Tooltip>
+                <Tooltip sticky>{`${ROUTE_STYLE[k].label} — ${r.minutes} min, ${r.km} km`}</Tooltip>
               </Polyline>
             )
         )}
@@ -266,7 +266,7 @@ export default function App() {
       </MapContainer>
 
       <div className="legend">
-        <div className="legend-title">Пешком до школы</div>
+        <div className="legend-title">Walk time to school</div>
         {[25, 35, 45].map((c) => (
           <div key={c} className="legend-row">
             <span className="swatch" style={{ background: ZONES[c].color }} />
@@ -277,7 +277,7 @@ export default function App() {
 
       {apts.length > 0 && (
         <div className="apt-list">
-          <div className="legend-title">Квартиры ({apts.length})</div>
+          <div className="legend-title">Apartments ({apts.length})</div>
           {apts.map((a) => (
             <button
               key={a.id}
@@ -309,10 +309,10 @@ export default function App() {
                 {ZONES[selectedApt.zone].label}
               </div>
             ) : (
-              <div className="zone-badge" style={{ background: '#64748b' }}>дальше 45 мин пешком</div>
+              <div className="zone-badge" style={{ background: '#64748b' }}>45+ min walk</div>
             )}
             <div className="routes">
-              {routesLoading && <span className="route-chip muted">маршруты…</span>}
+              {routesLoading && <span className="route-chip muted">loading routes…</span>}
               {!routesLoading &&
                 Object.entries(routes).map(([k, r]) => (
                   <span
@@ -321,8 +321,8 @@ export default function App() {
                     style={{ '--rc': ROUTE_STYLE[k].color }}
                   >
                     {r
-                      ? `${ROUTE_STYLE[k].label}: ${r.minutes} мин · ${r.km} км`
-                      : `${ROUTE_STYLE[k].label}: н/д`}
+                      ? `${ROUTE_STYLE[k].label}: ${r.minutes} min · ${r.km} km`
+                      : `${ROUTE_STYLE[k].label}: n/a`}
                   </span>
                 ))}
             </div>
@@ -330,14 +330,14 @@ export default function App() {
             {selectedApt.notes && <p className="notes">{selectedApt.notes}</p>}
             <div className="card-links">
               {selectedApt.link && (
-                <a href={selectedApt.link} target="_blank" rel="noreferrer">Объявление ↗</a>
+                <a href={selectedApt.link} target="_blank" rel="noreferrer">Listing ↗</a>
               )}
               <a
                 href={`https://www.google.com/maps/dir/?api=1&origin=${selectedApt.lat},${selectedApt.lng}&destination=${SCHOOL.lat},${SCHOOL.lng}&travelmode=walking`}
                 target="_blank"
                 rel="noreferrer"
               >
-                Маршрут до школы ↗
+                Route to school ↗
               </a>
             </div>
           </div>

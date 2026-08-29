@@ -1,12 +1,12 @@
 [
   {
     "id": "demo",
-    "title": "Пример квартиры (удалю при первой реальной)",
-    "price": "10 млн ₫/мес",
+    "title": "Demo apartment (will be removed)",
+    "price": "10M ₫/mo",
     "lat": 10.7935,
     "lng": 106.6812,
     "address": "Ví dụ, Quận Phú Nhuận",
-    "notes": "Это тестовая карточка, чтобы показать как выглядит. Скинь первую квартиру — добавлю настоящую.",
+    "notes": "This is a demo card to show the layout. Send the first real apartment and it will replace this one.",
     "link": "",
     "photos": ["photos/demo/1.svg", "photos/demo/2.svg"]
   }
