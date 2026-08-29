@@ -532,5 +532,28 @@
       "photo": "agents/kimee-dinh.jpg",
       "facebook": "https://www.facebook.com/profile.php?id=100088832354512"
     }
+  },
+  {
+    "id": "apt-021",
+    "title": "Spacious studio · unit 401 (AMR)",
+    "price": "14M ₫/mo",
+    "lat": 10.79235,
+    "lng": 106.69885,
+    "address": "Nguyễn Bỉnh Khiêm, Tân Định Ward, District 1",
+    "notes": "Studio, 1 bathroom · fully furnished\nElevator · basement parking\n🔑 Unit 401 · available from 01/09/2026\n\nIncluded: cleaning 2×/week, parking, building services\nNot included: electricity 4,000 ₫/kWh\nDeposit 1–2 months · no pets",
+    "link": "https://www.facebook.com/share/p/19F2JsXnqN/",
+    "approx": true,
+    "photos": [
+      "photos/apt-021/1.jpg",
+      "photos/apt-021/2.jpg",
+      "photos/apt-021/3.jpg",
+      "photos/apt-021/4.jpg",
+      "photos/apt-021/5.jpg"
+    ],
+    "agent": {
+      "name": "Kimee Dinh",
+      "photo": "agents/kimee-dinh.jpg",
+      "facebook": "https://www.facebook.com/profile.php?id=100088832354512"
+    }
   }
 ]
