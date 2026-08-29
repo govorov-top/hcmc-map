@@ -95,5 +95,29 @@
       "photo": "agents/jayden-le.jpg",
       "facebook": "https://www.facebook.com/profile.php?id=61589576163427"
     }
+  },
+  {
+    "id": "apt-005",
+    "title": "Studio · 30 sqm · services included",
+    "price": "10M ₫/mo",
+    "lat": 10.794041,
+    "lng": 106.699343,
+    "address": "122A Trường Sa, Ward 15, Bình Thạnh District",
+    "notes": "Studio, 1 bathroom · 30 sqm\nFully furnished: bed, TV, washer, dryer, AC, fridge\n🗓️ Available now\n\nRent includes: room cleaning 1×/week, bedsheet change 1×/week, management fees, water, internet, motorbike parking\nExcludes: service fee 500k ₫/mo, electricity 4,000 ₫/kWh",
+    "link": "",
+    "photos": [
+      "photos/apt-005/1.jpg",
+      "photos/apt-005/2.jpg",
+      "photos/apt-005/3.jpg",
+      "photos/apt-005/4.jpg",
+      "photos/apt-005/5.jpg",
+      "photos/apt-005/6.jpg",
+      "photos/apt-005/7.jpg"
+    ],
+    "agent": {
+      "name": "Jayden Le",
+      "photo": "agents/jayden-le.jpg",
+      "facebook": "https://www.facebook.com/profile.php?id=61589576163427"
+    }
   }
 ]
