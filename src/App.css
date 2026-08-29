@@ -47,6 +47,69 @@ html, body, #root {
   outline: 3px solid rgba(30, 41, 59, .45);
 }
 
+/* approximate-location pins: "?" inside, warning badge alongside */
+.apt-pin-mark {
+  position: absolute;
+  left: 0; top: 4px;
+  width: 30px;
+  text-align: center;
+  z-index: 1;
+  font-size: 15px;
+  font-weight: 800;
+  line-height: 20px;
+  color: #fff;
+  text-shadow: 0 1px 2px rgba(0,0,0,.35);
+  pointer-events: none;
+}
+.apt-pin-warn {
+  position: absolute;
+  right: -6px; top: -6px;
+  z-index: 2;
+  width: 16px; height: 16px;
+  border-radius: 50%;
+  background: #facc15;
+  border: 1.5px solid #fff;
+  color: #111827;
+  font-size: 12px;
+  font-weight: 900;
+  line-height: 13px;
+  text-align: center;
+  box-shadow: 0 1px 4px rgba(0,0,0,.4);
+}
+
+.warn-badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 16px; height: 16px;
+  border-radius: 50%;
+  background: #facc15;
+  color: #111827;
+  font-size: 12px;
+  font-weight: 900;
+}
+.warn-badge.sm {
+  width: 13px; height: 13px;
+  font-size: 10px;
+  margin-right: 5px;
+  vertical-align: -1px;
+}
+
+.approx-note {
+  display: flex;
+  align-items: flex-start;
+  gap: 7px;
+  margin: 6px 0;
+  padding: 7px 9px;
+  border-radius: 8px;
+  background: #fefce8;
+  border: 1px solid #fde68a;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #713f12;
+}
+
 /* legend */
 .legend {
   position: absolute;

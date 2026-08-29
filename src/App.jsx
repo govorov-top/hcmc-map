@@ -21,11 +21,14 @@ const schoolIcon = L.divIcon({
   iconAnchor: [20, 20],
 })
 
-function aptIcon(zone, active) {
+function aptIcon(zone, active, approx) {
   const color = zone ? ZONES[zone].color : '#64748b'
+  const inner = approx
+    ? '<div class="apt-pin-mark">?</div><div class="apt-pin-warn">!</div>'
+    : '<div class="apt-pin-dot"></div>'
   return L.divIcon({
     className: '',
-    html: `<div class="apt-pin ${active ? 'active' : ''}" style="--pin:${color}"><div class="apt-pin-dot"></div></div>`,
+    html: `<div class="apt-pin ${active ? 'active' : ''}" style="--pin:${color}">${inner}</div>`,
     iconSize: [30, 40],
     iconAnchor: [15, 38],
   })
@@ -232,7 +235,7 @@ export default function App() {
           <Marker
             key={a.id}
             position={[a.lat, a.lng]}
-            icon={aptIcon(a.zone, a.id === selected)}
+            icon={aptIcon(a.zone, a.id === selected, a.approx)}
             zIndexOffset={a.id === selected ? 1000 : 0}
             eventHandlers={{
               click: () => {
@@ -241,7 +244,10 @@ export default function App() {
               },
             }}
           >
-            <Tooltip direction="top" offset={[0, -36]}>{a.title}</Tooltip>
+            <Tooltip direction="top" offset={[0, -36]}>
+              {a.title}
+              {a.approx && ' — approximate location'}
+            </Tooltip>
           </Marker>
         ))}
         {Object.entries(routes).map(
@@ -288,7 +294,10 @@ export default function App() {
               }}
             >
               <span className="swatch" style={{ background: a.zone ? ZONES[a.zone].color : '#64748b' }} />
-              <span className="apt-row-title">{a.title}</span>
+              <span className="apt-row-title">
+                {a.approx && <span className="warn-badge sm" title="Approximate location">!</span>}
+                {a.title}
+              </span>
               {a.price && <span className="apt-row-price">{a.price}</span>}
             </button>
           ))}
@@ -327,6 +336,12 @@ export default function App() {
                 ))}
             </div>
             {selectedApt.address && <p className="addr">📍 {selectedApt.address}</p>}
+            {selectedApt.approx && (
+              <p className="approx-note">
+                <span className="warn-badge">!</span>
+                Approximate location — the agent gave no map link, so the pin sits on the street, not the exact building.
+              </p>
+            )}
             {selectedApt.notes && <p className="notes">{selectedApt.notes}</p>}
             {selectedApt.agent && (
               <a

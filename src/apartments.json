@@ -180,7 +180,7 @@
     "lat": 10.771322,
     "lng": 106.689852,
     "address": "150 Bùi Thị Xuân, Bến Thành Ward, District 1",
-    "notes": "Unit 501 · 1 bedroom + balcony\n🗓️ Available immediately\n\n⚠️ Pin is street-level accurate — no map link was provided for the exact building.",
+    "notes": "Unit 501 · 1 bedroom + balcony\n🗓️ Available immediately",
     "link": "",
     "photos": [
       "photos/apt-008/1.jpg",
@@ -194,7 +194,8 @@
       "name": "Hoàng Lệ Thu",
       "photo": "agents/hoang-le-thu.jpg",
       "facebook": "https://www.facebook.com/hoang.thi.le.thu.2024"
-    }
+    },
+    "approx": true
   },
   {
     "id": "apt-009",
@@ -203,7 +204,7 @@
     "lat": 10.788,
     "lng": 106.6972,
     "address": "90 Nguyễn Văn Thủ, Tân Định Ward, District 1",
-    "notes": "Fully furnished studio with balcony, 3rd floor\n🗓️ Available from 25/08/2026\n\nFurnished: smart TV, AC, fridge, sofa, shoe cabinet, wardrobe, kitchenware\nHousekeeping included (2 sessions/week)\nPrice excludes VAT · electricity 4,000 ₫/kWh · water 200k ₫/person · parking 200k ₫/vehicle\n\n⚠️ Pin is street-level accurate — no map link was provided for the exact building.",
+    "notes": "Fully furnished studio with balcony, 3rd floor\n🗓️ Available from 25/08/2026\n\nFurnished: smart TV, AC, fridge, sofa, shoe cabinet, wardrobe, kitchenware\nHousekeeping included (2 sessions/week)\nPrice excludes VAT · electricity 4,000 ₫/kWh · water 200k ₫/person · parking 200k ₫/vehicle",
     "link": "",
     "photos": [
       "photos/apt-009/1.jpg",
@@ -219,7 +220,8 @@
       "name": "Hoàng Lệ Thu",
       "photo": "agents/hoang-le-thu.jpg",
       "facebook": "https://www.facebook.com/hoang.thi.le.thu.2024"
-    }
+    },
+    "approx": true
   },
   {
     "id": "apt-010",
@@ -228,7 +230,7 @@
     "lat": 10.760644,
     "lng": 106.691337,
     "address": "122M Trần Đình Xứ, District 1",
-    "notes": "Fully furnished studio\nKitchen, washer and dryer, private balcony\nAccess to rooftop terrace\n\nPrice excludes electricity and water\n\n⚠️ Pin is street-level accurate — no map link was provided for the exact building.",
+    "notes": "Fully furnished studio\nKitchen, washer and dryer, private balcony\nAccess to rooftop terrace\n\nPrice excludes electricity and water",
     "link": "",
     "photos": [
       "photos/apt-010/1.jpg",
@@ -253,7 +255,8 @@
       "name": "Thư Nguyễn",
       "photo": "agents/thu-nguyen.jpg",
       "facebook": "https://www.facebook.com/ThuNguyen41"
-    }
+    },
+    "approx": true
   },
   {
     "id": "apt-011",
@@ -455,7 +458,7 @@
     "lat": 10.79305,
     "lng": 106.7001,
     "address": "Hoàng Sa, Đa Kao Ward, District 1",
-    "notes": "Studio, 1 bathroom · 30 sqm · fully furnished\n🔑 Unit 402 · available from 11/09/2026\n\nIncluded: cleaning 3×/week, laundry 3×/week (no ironing), shared laundry area, bedsheet change 1×/week, WiFi 100–200 Mbps, smart TV, maintenance, free motorbike parking (1 bike)\nNot included: electricity 4,500 ₫/kWh, water 150k ₫/person/mo, ironing\nDeposit 1–2 months · no pets\n\n⚠️ Pin is street-level accurate — no map link was provided for the exact building.",
+    "notes": "Studio, 1 bathroom · 30 sqm · fully furnished\n🔑 Unit 402 · available from 11/09/2026\n\nIncluded: cleaning 3×/week, laundry 3×/week (no ironing), shared laundry area, bedsheet change 1×/week, WiFi 100–200 Mbps, smart TV, maintenance, free motorbike parking (1 bike)\nNot included: electricity 4,500 ₫/kWh, water 150k ₫/person/mo, ironing\nDeposit 1–2 months · no pets",
     "link": "https://www.facebook.com/share/p/1ZESYZknGF/",
     "photos": [
       "photos/apt-018/1.jpg",
@@ -472,7 +475,8 @@
       "name": "Kimee Dinh",
       "photo": "agents/kimee-dinh.jpg",
       "facebook": "https://www.facebook.com/profile.php?id=100088832354512"
-    }
+    },
+    "approx": true
   },
   {
     "id": "apt-019",
@@ -481,7 +485,7 @@
     "lat": 10.79318,
     "lng": 106.70027,
     "address": "Hoàng Sa, Đa Kao Ward, District 1",
-    "notes": "Studio, 1 bathroom · 35 sqm · fully furnished\n🔑 Unit 202 · available from 02/09/2026\n\nSame building as unit 402 — see that card for the full list of included services.\n\n⚠️ Pin is street-level accurate — no map link was provided for the exact building.",
+    "notes": "Studio, 1 bathroom · 35 sqm · fully furnished\n🔑 Unit 202 · available from 02/09/2026\n\nSame building as unit 402 — see that card for the full list of included services.",
     "link": "https://www.facebook.com/share/p/19NqzHJ4Xv/",
     "photos": [
       "photos/apt-019/1.jpg",
@@ -499,6 +503,7 @@
       "name": "Kimee Dinh",
       "photo": "agents/kimee-dinh.jpg",
       "facebook": "https://www.facebook.com/profile.php?id=100088832354512"
-    }
+    },
+    "approx": true
   }
 ]
