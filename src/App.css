@@ -310,6 +310,12 @@ html, body, #root {
 }
 .card h2 { margin: 0 0 6px; font-size: 17px; }
 .price { font-weight: 700; white-space: nowrap; color: #0f766e; }
+.badge-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 4px 0 8px;
+}
 .zone-badge {
   display: inline-block;
   color: #fff;
@@ -317,7 +323,6 @@ html, body, #root {
   font-weight: 600;
   padding: 3px 10px;
   border-radius: 999px;
-  margin: 4px 0 8px;
 }
 .routes { display: flex; gap: 8px; flex-wrap: wrap; margin: 4px 0 8px; }
 .route-chip {

@@ -2257,5 +2257,201 @@
     "has_listing": false,
     "photo_count": 0,
     "approx": true
+  },
+  {
+    "id": "apt-065",
+    "title": "Modern studio · Home Sweet Home · 40 sqm",
+    "price": "14M ₫/mo",
+    "lat": 10.791061,
+    "lng": 106.696663,
+    "address": "Nguyễn Bỉnh Khiêm, Đa Kao Ward, District 1",
+    "notes": "Studio, 1 bathroom · 40 sqm · balcony · Available 01/09/2026 (Home Sweet Home).",
+    "link": "https://jhouse.vn/property/modern-studio-apartment-balcony-home-sweet-home-d1/",
+    "photos": [
+      "photos/apt-065/1.jpg",
+      "photos/apt-065/2.jpg",
+      "photos/apt-065/3.jpg",
+      "photos/apt-065/4.jpg",
+      "photos/apt-065/5.jpg",
+      "photos/apt-065/6.jpg",
+      "photos/apt-065/7.jpg",
+      "photos/apt-065/8.jpg",
+      "photos/apt-065/9.jpg"
+    ],
+    "agent": {
+      "name": "Huynh Anh",
+      "photo": "agents/huynh-anh.jpg",
+      "facebook": "https://www.facebook.com/huynh.anh.273572"
+    },
+    "price_vnd": 14000000,
+    "area": 40,
+    "rooms": "studio",
+    "baths": 1,
+    "available": "2026-09-01",
+    "district": "District 1",
+    "ward": "Đa Kao",
+    "features": [
+      "balcony",
+      "furnished",
+      "aircon"
+    ],
+    "has_video": false,
+    "has_listing": true,
+    "photo_count": 9
+  },
+  {
+    "id": "apt-066",
+    "title": "1BR · balcony · private washer · Lý Chính Thắng · 50 sqm",
+    "price": "10M ₫/mo",
+    "lat": 10.79129,
+    "lng": 106.685535,
+    "address": "Lý Chính Thắng, Võ Thị Sáu Ward, District 3",
+    "notes": "1 bedroom, balcony, full furniture, private washing machine.",
+    "link": "https://batdongsan.com.vn/cho-thue-can-ho-chung-cu-mini-duong-ly-chinh-thang-phuong-vo-thi-sau-55/cho-1pn-ban-cong-full-noi-that-may-giat-rieng-uong-gia-chi-10tr-th-pr46120319",
+    "photos": [
+      "photos/apt-066/1.jpg"
+    ],
+    "agent": {
+      "name": "batdongsan.com.vn",
+      "photo": "agents/batdongsan.svg",
+      "facebook": "https://batdongsan.com.vn/cho-thue-can-ho-chung-cu-mini-duong-ly-chinh-thang-phuong-vo-thi-sau-55/cho-1pn-ban-cong-full-noi-that-may-giat-rieng-uong-gia-chi-10tr-th-pr46120319"
+    },
+    "price_vnd": 10000000,
+    "area": 50,
+    "rooms": "1br",
+    "baths": null,
+    "available": null,
+    "district": "District 3",
+    "ward": "Võ Thị Sáu",
+    "features": [],
+    "has_video": false,
+    "has_listing": true,
+    "photo_count": 1,
+    "source": "batdongsan",
+    "approx": true
+  },
+  {
+    "id": "apt-067",
+    "title": "Serviced apt · 40 sqm · Võ Thị Sáu (near Tân Định market)",
+    "price": "9.5M ₫/mo",
+    "lat": 10.789789,
+    "lng": 106.693834,
+    "address": "Võ Thị Sáu, Tân Định Ward, District 1",
+    "notes": "Newly opened serviced apartment, big balcony, brand-new furniture. Near Tân Định market.",
+    "link": "https://batdongsan.com.vn/cho-thue-can-ho-chung-cu-mini-duong-vo-thi-sau-phuong-tan-dinh-2-53/khai-truong-chdv-40m2-ban-cong-lon-noi-that-moi-100-uong-q1-gan-cho-inh-pr46251594",
+    "photos": [
+      "photos/apt-067/1.jpg"
+    ],
+    "agent": {
+      "name": "batdongsan.com.vn",
+      "photo": "agents/batdongsan.svg",
+      "facebook": "https://batdongsan.com.vn/cho-thue-can-ho-chung-cu-mini-duong-vo-thi-sau-phuong-tan-dinh-2-53/khai-truong-chdv-40m2-ban-cong-lon-noi-that-moi-100-uong-q1-gan-cho-inh-pr46251594"
+    },
+    "price_vnd": 9500000,
+    "area": 40,
+    "rooms": "1br",
+    "baths": null,
+    "available": null,
+    "district": "District 1",
+    "ward": "Tân Định",
+    "features": [],
+    "has_video": false,
+    "has_listing": true,
+    "photo_count": 1,
+    "source": "batdongsan",
+    "approx": true
+  },
+  {
+    "id": "apt-068",
+    "title": "Serviced apt · 40 sqm · Thạch Thị Thanh · Tân Định",
+    "price": "9.7M ₫/mo",
+    "lat": 10.790093,
+    "lng": 106.692653,
+    "address": "Thạch Thị Thanh, Tân Định Ward, District 1",
+    "notes": "Serviced apartment, high-end full furniture, short/long term.",
+    "link": "https://batdongsan.com.vn/cho-thue-can-ho-chung-cu-mini-duong-thach-thi-thanh-phuong-tan-dinh-2-53/dich-vu-inh-quan-1-full-noi-that-cao-cap-co-nhan-ngan-dai-han-trong-linh-hoat-pr46253057",
+    "photos": [
+      "photos/apt-068/1.jpg"
+    ],
+    "agent": {
+      "name": "batdongsan.com.vn",
+      "photo": "agents/batdongsan.svg",
+      "facebook": "https://batdongsan.com.vn/cho-thue-can-ho-chung-cu-mini-duong-thach-thi-thanh-phuong-tan-dinh-2-53/dich-vu-inh-quan-1-full-noi-that-cao-cap-co-nhan-ngan-dai-han-trong-linh-hoat-pr46253057"
+    },
+    "price_vnd": 9700000,
+    "area": 40,
+    "rooms": null,
+    "baths": null,
+    "available": null,
+    "district": "District 1",
+    "ward": "Tân Định",
+    "features": [],
+    "has_video": false,
+    "has_listing": true,
+    "photo_count": 1,
+    "source": "batdongsan",
+    "approx": true
+  },
+  {
+    "id": "apt-069",
+    "title": "Studio · 30 sqm · balcony · Bà Lê Chân · Tân Định",
+    "price": "7.9M ₫/mo",
+    "lat": 10.790858,
+    "lng": 106.68962,
+    "address": "Bà Lê Chân, Tân Định Ward, District 1",
+    "notes": "Studio with balcony, projector, elevator, basement parking. Near Tân Định market & Lê Văn Tám park.",
+    "link": "https://batdongsan.com.vn/cho-thue-can-ho-chung-cu-mini-duong-ba-le-chan-phuong-tan-dinh-2-53/khai-truong-studio-ban-cong-co-gu-xinh-xan-ngay-cho-inh-cong-vien-van-tam-pr45888828",
+    "photos": [
+      "photos/apt-069/1.jpg"
+    ],
+    "agent": {
+      "name": "batdongsan.com.vn",
+      "photo": "agents/batdongsan.svg",
+      "facebook": "https://batdongsan.com.vn/cho-thue-can-ho-chung-cu-mini-duong-ba-le-chan-phuong-tan-dinh-2-53/khai-truong-studio-ban-cong-co-gu-xinh-xan-ngay-cho-inh-cong-vien-van-tam-pr45888828"
+    },
+    "price_vnd": 7900000,
+    "area": 30,
+    "rooms": "studio",
+    "baths": null,
+    "available": null,
+    "district": "District 1",
+    "ward": "Tân Định",
+    "features": [],
+    "has_video": false,
+    "has_listing": true,
+    "photo_count": 1,
+    "source": "batdongsan",
+    "approx": true
+  },
+  {
+    "id": "apt-070",
+    "title": "1BR · 60 sqm · big living room · Lý Chính Thắng",
+    "price": "10M ₫/mo",
+    "lat": 10.791283,
+    "lng": 106.685508,
+    "address": "Lý Chính Thắng, Võ Thị Sáu Ward, District 3",
+    "notes": "1 bedroom, spacious 60 sqm, big living room & balcony. NOTE: several agents said the real price is ~14M, not the listed 10M.",
+    "link": "https://batdongsan.com.vn/cho-thue-can-ho-chung-cu-mini-duong-ly-chinh-thang-phuong-vo-thi-sau-55/cho-1pn-rong-60m2-phong-khach-rong-thoang-ban-cong-lon-ngay-cho-tan-inh-q1-pr46248778",
+    "photos": [
+      "photos/apt-070/1.jpg"
+    ],
+    "agent": {
+      "name": "batdongsan.com.vn",
+      "photo": "agents/batdongsan.svg",
+      "facebook": "https://batdongsan.com.vn/cho-thue-can-ho-chung-cu-mini-duong-ly-chinh-thang-phuong-vo-thi-sau-55/cho-1pn-rong-60m2-phong-khach-rong-thoang-ban-cong-lon-ngay-cho-tan-inh-q1-pr46248778"
+    },
+    "price_vnd": 10000000,
+    "area": 60,
+    "rooms": "1br",
+    "baths": null,
+    "available": null,
+    "district": "District 3",
+    "ward": "Võ Thị Sáu",
+    "features": [],
+    "has_video": false,
+    "has_listing": true,
+    "photo_count": 1,
+    "source": "batdongsan",
+    "approx": true
   }
 ]

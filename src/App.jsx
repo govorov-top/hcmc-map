@@ -14,6 +14,11 @@ const ZONES = {
   45: { color: '#dc2626', label: '35–45 min walk' },
 }
 
+// listings sourced from batdongsan.com.vn get their own purple pin
+const SOURCE_COLOR = '#9333ea'
+const SOURCE_LABELS = { agent: 'From agents', batdongsan: 'batdongsan.com.vn' }
+const pinColor = (a) => (a.source === 'batdongsan' ? SOURCE_COLOR : a.zone ? ZONES[a.zone].color : '#64748b')
+
 const schoolIcon = L.divIcon({
   className: '',
   html: '<div class="school-pin">🏫</div>',
@@ -21,8 +26,8 @@ const schoolIcon = L.divIcon({
   iconAnchor: [20, 20],
 })
 
-function aptIcon(zone, active, approx) {
-  const color = zone ? ZONES[zone].color : '#64748b'
+function aptIcon(zone, active, approx, source) {
+  const color = source === 'batdongsan' ? SOURCE_COLOR : zone ? ZONES[zone].color : '#64748b'
   const inner = approx
     ? '<div class="apt-pin-mark">?</div><div class="apt-pin-warn">!</div>'
     : '<div class="apt-pin-dot"></div>'
@@ -257,6 +262,7 @@ export default function App() {
       maxArea: Math.max(...areas),
       districts: [...new Set(apts.map((a) => a.district).filter(Boolean))].sort(),
       agents: [...new Set(apts.map((a) => a.agent.name))].sort(),
+      sources: [...new Set(apts.map((a) => a.source || 'agent'))].sort(),
       features: [...new Set(apts.flatMap((a) => a.features))].sort(
         (x, y) => Object.keys(FEATURE_LABELS).indexOf(x) - Object.keys(FEATURE_LABELS).indexOf(y)
       ),
@@ -272,6 +278,7 @@ export default function App() {
       zones: [],
       districts: [],
       agents: [],
+      sources: [],
       features: [],
       exactOnly: false,
       videoOnly: false,
@@ -300,6 +307,7 @@ export default function App() {
       if (filters.zones.length && !filters.zones.includes(String(a.zone || 'far'))) return false
       if (filters.districts.length && !filters.districts.includes(a.district)) return false
       if (filters.agents.length && !filters.agents.includes(a.agent.name)) return false
+      if (filters.sources.length && !filters.sources.includes(a.source || 'agent')) return false
       if (filters.features.some((f) => !a.features.includes(f))) return false
       if (filters.exactOnly && a.approx) return false
       if (filters.videoOnly && !a.has_video) return false
@@ -315,6 +323,7 @@ export default function App() {
     filters.zones.length +
     filters.districts.length +
     filters.agents.length +
+    filters.sources.length +
     filters.features.length +
     (filters.exactOnly ? 1 : 0) +
     (filters.videoOnly ? 1 : 0)
@@ -385,7 +394,7 @@ export default function App() {
           <Marker
             key={a.id}
             position={[a.lat, a.lng]}
-            icon={aptIcon(a.zone, a.id === selected, a.approx)}
+            icon={aptIcon(a.zone, a.id === selected, a.approx, a.source)}
             zIndexOffset={a.id === selected ? 1000 : 0}
             eventHandlers={{
               click: () => {
@@ -580,6 +589,27 @@ export default function App() {
             </div>
           </section>
 
+          {bounds.sources.length > 1 && (
+            <section>
+              <div className="sb-label">Source</div>
+              <div className="chips">
+                {bounds.sources.map((s) => (
+                  <button
+                    key={s}
+                    className={`chip ${filters.sources.includes(s) ? 'on' : ''}`}
+                    onClick={() => toggle('sources', s)}
+                  >
+                    <span
+                      className="swatch"
+                      style={{ background: s === 'batdongsan' ? SOURCE_COLOR : '#64748b' }}
+                    />
+                    {SOURCE_LABELS[s] || s} <i>{apts.filter((a) => (a.source || 'agent') === s).length}</i>
+                  </button>
+                ))}
+              </div>
+            </section>
+          )}
+
           <section>
             <label className="sb-check">
               <input
@@ -622,7 +652,7 @@ export default function App() {
               >
                 <span
                   className="swatch"
-                  style={{ background: a.zone ? ZONES[a.zone].color : '#64748b' }}
+                  style={{ background: pinColor(a) }}
                 />
                 <span className="apt-row-main">
                   <span className="apt-row-title">
@@ -650,13 +680,20 @@ export default function App() {
               <h2>{selectedApt.title}</h2>
               {selectedApt.price && <div className="price">{selectedApt.price}</div>}
             </div>
-            {selectedApt.zone ? (
-              <div className="zone-badge" style={{ background: ZONES[selectedApt.zone].color }}>
-                {ZONES[selectedApt.zone].label}
-              </div>
-            ) : (
-              <div className="zone-badge" style={{ background: '#64748b' }}>45+ min walk</div>
-            )}
+            <div className="badge-row">
+              {selectedApt.zone ? (
+                <span className="zone-badge" style={{ background: ZONES[selectedApt.zone].color }}>
+                  {ZONES[selectedApt.zone].label}
+                </span>
+              ) : (
+                <span className="zone-badge" style={{ background: '#64748b' }}>45+ min walk</span>
+              )}
+              {selectedApt.source === 'batdongsan' && (
+                <span className="zone-badge" style={{ background: SOURCE_COLOR }}>
+                  batdongsan.com.vn ↗
+                </span>
+              )}
+            </div>
             <div className="routes">
               {routesLoading && <span className="route-chip muted">loading routes…</span>}
               {!routesLoading &&

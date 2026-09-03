@@ -59,6 +59,31 @@ Kyra Zeah Sapanta is a personal/cafe contact, not an agent.
   (end-to-end encrypted, wouldn't restore on this device). Please open it yourself and
   paste anything useful, and I'll add it.
 
+## Re-check pass (per your request)
+Re-read every chat in the two screenshots. One gap found & fixed:
+- **Huynh Anh** hadn't been re-read — added **apt-065** (Home Sweet Home, Nguyễn Bỉnh Khiêm,
+  Đa Kao, studio 40 sqm, 14M, JHouse, photos+exact coords). His other two JHouse links
+  (Maison Huong 15M = existing apt-016; Twin Pines NTMK 12M = existing apt-017) were already
+  in the map. (Twin Pines = same building as Duong's apt-053.)
+- **My Duyen** had a possible 3rd listing but the agent **deleted** that message — unrecoverable.
+- Everything else in the two screenshots was already captured.
+
+## batdongsan.com.vn (green zone) — purple pins
+From your filtered map link (≤13M, 30–100 m², green-zone box around the school) I added **5**
+listings as **apt-066…070**, each marked with a **purple pin** (new `source: "batdongsan"` field;
+also a new "Source" filter and a purple badge on the card). Cover photo + link to the listing included.
+1. Lý Chính Thắng, Võ Thị Sáu (D3) — 1BR 50 m² — 10M
+2. Võ Thị Sáu, Tân Định (D1) — serviced 40 m² — 9.5M
+3. Thạch Thị Thanh, Tân Định (D1) — serviced 40 m² — 9.7M
+4. Bà Lê Chân, Tân Định (D1) — studio 30 m² — 7.9M
+5. Lý Chính Thắng, Võ Thị Sáu (D3) — 1BR 60 m² — 10M  ← the one agents flagged as bait (real ≈14M)
+
+**Caveat:** the batdongsan map showed ~12 pins in that box, but the site blocks scripted access to
+its map API and paginates the list with nationwide/promoted results mixed in, so only these 5 could
+be extracted reliably from the loaded page. The rest would need clicking each map pin by hand — tell
+me if you want them and I'll go pin by pin. Also note agents repeatedly warned these batdongsan
+prices are often "bait" (real price higher); coordinates are the listing's own pin (marked approximate).
+
 ## Agents newly added to the map
 Thu Bùi, Phương Giang, Anh Hoang, Nguyễn Thị Duyên, Thanh Nguyễn, My Duyen,
 Julie Nguyen, Nguyễn Thị Ngọc, Minh An, Vương Hoàng Yến Nhi ("Sophie"),
